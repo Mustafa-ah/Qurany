@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/share"
+        android:icon="@drawable/r_launcher"
+        android:title="مشاركة"
+        android:showAsAction="ifRoom"/>
+  <item android:id="@+id/aya"
+       android:icon="@drawable/s_launcher"
+       android:title="اية"
+       android:showAsAction="ifRoom"/>
+  <item android:id="@+id/help"
+        android:icon="@drawable/t_launcher"
+        android:title="اعدادات"
+        android:showAsAction="always"/>
+</menu>

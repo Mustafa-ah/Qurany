@@ -1,0 +1,110 @@
+string[] lines = File.ReadAllLines(txtProxyListPath.Text);
+List<string> list_lines = new List<string>(lines);
+Parallel.ForEach(list_lines, line =>
+{
+    //Your stuff
+});
+
+====================
+   string [] arr = {"One","Two","Three"};
+       var target = "One";
+       var results = Array.FindAll(arr, s => s.Equals(target));
+=========
+unity
+~Qw0102030
+øóÕ0102030
+
+================
+IEnumerable<string> items = ...
+
+foreach (var item in items.AsParallel())
+{
+   ...
+}
+
+
+//
+	// Use this array of string references.
+	//
+	string[] array1 = { "cat", "dog", "carrot", "bird" };
+	//
+	// Find first element starting with substring.
+	//
+	string value1 = Array.Find(array1,
+	    element => element.StartsWith("car", StringComparison.Ordinal));
+	//
+	// Find first element of three characters length.
+	//
+	string value2 = Array.Find(array1,
+	    element => element.Length == 3);
+	//
+	// Find all elements not greater than four letters long.
+	//
+	string[] array2 = Array.FindAll(array1,
+	    element => element.Length <= 4);
+
+	Console.WriteLine(value1);
+	Console.WriteLine(value2);
+	Console.WriteLine(string.Join(",", array2));
+    }
+
+====================
+
+    static void Main()
+    {
+	string[] array = { "dot", "net", "perls" };
+	// Find last string of length 3.
+	string result = Array.FindLast(array, s => s.Length == 3);
+	Console.WriteLine(result);
+
+===============
+
+int[] array = new int[6];
+	array[0] = 1;
+	array[1] = 3;
+	array[2] = 5;
+	array[3] = 7;
+	array[4] = 8;
+	array[5] = 5;
+
+	//
+	// Find index of element with value 5.
+	//
+	int index1 = Array.IndexOf(array, 5);
+
+	//
+	// Find index of value 3.
+	//
+	int index2 = Array.IndexOf<int>(array, 3);
+
+
+-========================
+arr.Any(x => x == "One")
+=========================
+
+
+public static T Find<T>(
+    T[] array,
+    Predicate<T> match
+)
+Here is some examples:
+
+// we search an array of strings for a name containing the letter “a”:
+static void Main()
+{
+  string[] names = { "Rodney", "Jack", "Jill" };
+  string match = Array.Find (names, ContainsA);
+  Console.WriteLine (match);     // Jack
+}
+static bool ContainsA (string name) { return name.Contains ("a"); }
+Here’s the same code shortened with an anonymous method:
+
+string[] names = { "Rodney", "Jack", "Jill" };
+string match = Array.Find (names, delegate (string name)
+  { return name.Contains ("a"); } ); // Jack
+A lambda expression shortens it further:
+
+string[] names = { "Rodney", "Jack", "Jill" };
+string match = Array.Find (names, n => n.Contains ("a"));     // Jack
+
+

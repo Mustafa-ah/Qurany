@@ -1,0 +1,615 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>::: العقرب::::</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.js"></script>
+      <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+<!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<!-- Custom CSS -->
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+    
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+	<script language="JavaScript">
+<!--
+    function startClock() {
+        
+        open('http://scor.com/status', 'hotspot_status', 'toolbar=0,location=0,directories=0,status=0,menubars=0,resizable=1,width=290,height=200');
+	
+	location.href = 'http://m.addthis.com/live/red_lojson/300lo.json?si=57619a80cfc2d02d&amp;bl=1&amp;pdt=61652&amp;sid=57619a80cfc2d02d&amp;pub=&amp;rev=v7.1.3-wp&amp;ln=ar&amp;pc=men&amp;cb=0&amp;adu6=0&amp;ab=-&amp;dp=www.islambeacon.com&amp;dr=www.google.com.eg&amp;fp=m%2F%25D8%25A7%25D9%2584%25D9%2582%25D8%25B1%25D8%25A2%25D9%2586_%25D8%25A7%25D9%2584%25D9%2583%25D8%25B1%25D9%258A%25D9%2585_%25D9%2585%25D9%2583%25D8%25AA%25D9%2588%25D8%25A8_(%25D8%25A8%25D8%25AF%25D9%2588%25D9%2586_%25D8%25AA%25D8%25B4%25D9%2583%25D9%258A%25D9%2584)&amp;fr=&amp;of=0&amp;pd=0&amp;irt=1&amp;vcl=1&amp;md=0&amp;ct=1&amp;tct=0&amp;abt=0&amp;cdn=0&amp;pi=1&amp;rb=4&amp;gen=100&amp;chr=UTF-8&amp;colc=1466014348790&amp;jsl=33&amp;uvs=57619a80aeecd5b1000&amp;skipb=1&amp;callback=addthis.cbs.oln9_8390132783097950';
+    }
+//-->
+</script>
+
+</head>
+<body style=" background:url(img-web/background.png)">
+
+<div>
+ <!---- Page Content ----->
+ <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div align="center" class="col-lg-12">
+		  <h1 align="center"><img src="img-web/logo.png" style="margin-top: -40px;"></h1>
+                        </br>
+                                    <!-- /.row -->
+            <div class="row">
+			    <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-thumbs-up fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">مرحباً بك</div>
+                                    <div>تم تسجيل الدخول بنجاح </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" data-toggle="modal" data-target="#" >
+                            <div class="panel-footer">
+                                <span class="pull-left">مرحباً</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-phone-square fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">خدمة العملاء</div>
+                                    <div>فى حالة وجود مشكله لا تتردد فى الاتصال بنا</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#contact" data-toggle="modal" data-target="#contact">
+                            <div class="panel-footer">
+                                <span class="pull-left">من هنا</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-green">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-globe fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">اشهر المواقع </div>
+                                    <div>من هنا تصفح اشهر المواقع  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#website" data-toggle="modal" data-target="#website" >
+                            <div class="panel-footer">
+                                <span class="pull-left">من هنا</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-yellow">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-cog fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">حالة المستخدم</div>
+                                    <div>عرض بيانات حالة المستخدم </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#sta" data-toggle="modal" data-target="#sta">
+                            <div class="panel-footer">
+                                <span class="pull-left">من هنا</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+
+                        
+                    </div>
+                </div>
+                <div align="center" class="row">
+                    <div class="col-lg-12">
+                        <h1> </h1>
+                        </br>
+                                    <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-red">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-sign-out fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">تسجيل خروج </div>
+                                    <div>اضغط هنا للخروج </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#logout" data-toggle="modal" data-target="#logout">
+                            <div class="panel-footer">
+                                <span class="pull-left">من هنا</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-green">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-globe fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">اشهر المواقع </div>
+                                    <div>من هنا تصفح اشهر المواقع  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#website" data-toggle="modal" data-target="#website" >
+                            <div class="panel-footer">
+                                <span class="pull-left">من هنا</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                            </div>
+
+
+							
+            <!-- /.row -->
+
+                            <footer class="footer">
+                              <div class="container">
+						 <div style="color: #000; font-size: 20px">Powered by ehab abdo</div>
+                              </div>
+                            </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <!-- /ُEnd Page Content -->
+ 
+
+ 
+
+ <!-----./Start status Modal ------>
+<div id="sta" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div align="right" class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">حالة المستخدم  </h4>
+      </div>
+      <div class="modal-body">
+		<div>        
+            <div class="row">
+                
+
+                
+                    <div class="alert alert-info">Welcome me13400!</div>
+                
+            </div>        
+            <div class="row">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
+                        <table class="table table-striped">
+                            <tbody>
+                            <tr>
+                                <td>IP address:</td>
+                                <td>1.1.1.86</td>
+                            </tr>
+                            <tr>
+                                <td>bytes up/down</td>
+                                <td>0 B / 0 B</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>connected:</td>
+                                <td>0s</td>
+                            </tr>
+                            
+                            
+                            <tr>
+                                <td>status refresh</td>
+                                <td>1m</td>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div> 
+		</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+ <!-----./End Status Modal--------->
+ <!-----./contact  Modal ------>
+<div id="contact" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div align="right" class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">خدمة العملاء </h4>
+      </div>
+      <div class="modal-body">
+		<div>        
+				
+                    <div class="panel panel-red">
+                        <div class="panel-heading">
+                            مصطفي محمود
+                        </div>
+                        <div class="panel-body">
+                            <p>الاداره:مصطفى محمود.</p>
+                            <p>T:01142670966</p>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                     <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            ehab abdo
+                        </div>
+                        <div class="panel-body">
+                            <p>Executive Director Eng:ehab </p>
+                            <p>T:.......</p>
+                            <p>Website:<a href="http://www.qenahost.com/">qena host</a></p>
+                        </div>
+                        <div class="panel-footer">
+                            I Love Network
+                        </div>
+                    </div>
+		</div>
+		</div>
+	  <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-----./End contact Modal---------->
+
+<div id="website" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div align="right" class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">اشهر المواقغ</h4>
+      </div>
+      <div class="modal-body">
+		<div>        
+      <table align="center">
+          <tr>
+              <td>
+             
+<div class="hotsite-container favsite-count" >
+              <div class="hotsite hotsite-ele cur">
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://www.facebook.com/" target="_blank" log-index="1">
+                              <i class="i-hot-sprites " style="background: url(img-web/facebook.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">Facebook
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="" style="position: relative;">
+
+                              
+                          <a class="hotsite_link" href="http://www.youtube.com/ " target="_blank" log-index="2">
+                              <i class="i-hot-sprites " style="background: url(img-web/youtube.png) no-repeat left top"></i>
+                                  <span class="span-hot-name" style="visibility: visible;">YouTube  
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://www.yahoo.com/  " target="_blank" log-index="3">
+                              <i class="i-hot-sprites " style="background: url(img-web/yahoo.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">Yahoo 
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://www.arabseed.com/ar/home.html " target="_blank" log-index="4">
+                              <i class="i-hot-sprites " style="background: url(img-web/arabseed.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">arabseed 
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://www.akhbarak.net/ " target="_blank" log-index="5">
+                              <i class="i-hot-sprites " style="background: url(img-web/a5bar.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">akhbarak 
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://www.yallakora.com/arabic/default.aspx?region= " target="_blank" log-index="6">
+                              <i class="i-hot-sprites " style="background: url(img-web/yallakora.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">yallakora 
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://www1.youm7.com/default.asp " target="_blank" log-index="7">
+                              <i class="i-hot-sprites " style="background: url(img-web/youm7.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">youm7
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://twitter.com/" target="_blank" log-index="8">
+                              <i class="i-hot-sprites " style="background: url(img-web/twitter.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">twitter 
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://portal.moe.gov.eg/Pages/default.aspx" target="_blank" log-index="9">
+                              <i class="i-hot-sprites " style="background:url(http://s0.ar.hao123img.com/resource/ar/img/i-ar-jiaoyubu.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">hao123
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://www.mawaly.com/ " target="_blank" log-index="10">
+                              <i class="i-hot-sprites " style="background: url(img-web/mawaly.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">mawaly 
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://www.melody4arab.com/" target="_blank" log-index="11">
+                              <i class="i-hot-sprites " style="background:url(http://s0.ar.hao123img.com/resource/ar/yasuo/meldoy4arab.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">melody4arab
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href=" http://myegy.com/" target="_blank" log-index="12">
+                              <i class="i-hot-sprites " style="background: url(img-web/myegy.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">myegy
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://www.masrawy.com/" target="_blank" log-index="13">
+                              <i class="i-hot-sprites " style="background: url(img-web/masrawy.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">masrawy
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://www.elwatannews.com/" target="_blank" log-index="14">
+                              <i class="i-hot-sprites " style="background: url(img-web/elwatannews.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">elwatannews
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href=" http://www.almasryalyoum.com/ " target="_blank" log-index="15">
+                              <i class="i-hot-sprites " style="background: url(img-web/almasryalyoum.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">almasryalyoum
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://www.google.com.eg/ " target="_blank" log-index="16">
+                              <i class="i-hot-sprites " style="background: url(img-web/google.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">Google
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://ar.hao123.com/image.html?from=hao123_icon" target="_blank" log-index="17">
+                              <i class="i-hot-sprites " style="background:url(http://s0.ar.hao123img.com/resource/ar/yasuo/tupian.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">hao123
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://ar.337.com/?src=ar;websupport@elex337;w;hao123&amp;utm_campaign=AR_hao123&amp;utm_source=hao123.com&amp;utm_medium=link&amp;utm_term=337" target="_blank" log-index="18">
+                              <i class="i-hot-sprites " style="background: url(img-web/337.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">????? 337 
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://www.sm3na.com/ " target="_blank" log-index="19">
+                              <i class="i-hot-sprites " style="background: url(img-web/sm3na.png) no-repeat left top"></i>
+                                  <span class="span-hot-name"> sm3na
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://www.friv.com/" target="_blank" log-index="20">
+                              <i class="i-hot-sprites " style="background: url(img-web/friv.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">Friv
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://cima4u.com/" target="_blank" log-index="21">
+                              <i class="i-hot-sprites " style="background: url(img-web/cima4u.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">cima4u
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://egyup.com/" target="_blank" log-index="22">
+                              <i class="i-hot-sprites " style="background:url(http://s0.ar.hao123img.com/resource/ar/yasuo/egyup.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">EgyUp
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://www.fatakat.com/ " target="_blank" log-index="23">
+                              <i class="i-hot-sprites " style="background:url(img-web/fatakat.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">fatakat 
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                          <span class="">
+                              
+                          <a class="hotsite_link" href="http://goo.gl/nJTio" target="_blank" log-index="24">
+                              <i class="i-hot-sprites " style="background: url(img-web/dubizzle.png) no-repeat left top"></i>
+                                  <span class="span-hot-name">Dubizzle
+                                                                          </span>
+                          </a>
+                                                      </span>
+                                  </div>
+                                  
+  
+                          </div>
+              </td>
+          </tr>
+      </table>
+		</div>
+		</div>
+	  <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-----./End speed Modal---------->
+
+ <!-----./Logout Modal ------>
+<div id="logout" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div align="right" class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">تم تسجيل الخروج </h4>
+      </div>
+      <div class="modal-body">
+		<div>        
+            <div class="row">
+                
+                <div class="alert alert-success">You have just logged out.</div>
+            </div>
+            <div class="row">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+
+                        <table class="table table-striped">
+                            <tbody>
+                            <tr>
+                                <td>user name</td>
+                                <td>me13400</td>
+                            </tr>
+                            <tr>
+                                <td>IP address</td>
+                                <td>1.1.1.86</td>
+                            </tr>
+                            <tr>
+                                <td>MAC address</td>
+                                <td>18:03:73:A9:97:E2</td>
+                            </tr>
+                            <tr>
+                                <td>session time</td>
+                                <td>0s</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>bytes up/down:</td>
+                                <td>0 B / 0 B</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>            
+<form align="center" action="http://scor.com/login?dst=http%3A%2F%2Fm.addthis.com%2Flive%2Fred%5Flojson%2F300lo.json%3Fsi%3D57619a80cfc2d02d%26bl%3D1%26pdt%3D61652%26sid%3D57619a80cfc2d02d%26pub%3D%26rev%3Dv7.1.3-wp%26ln%3Dar%26pc%3Dmen%26cb%3D0%26adu6%3D0%26ab%3D-%26dp%3Dwww.islambeacon.com%26dr%3Dwww.google.com.eg%26fp%3Dm%252F%2525D8%2525A7%2525D9%252584%2525D9%252582%2525D8%2525B1%2525D8%2525A2%2525D9%252586%5F%2525D8%2525A7%2525D9%252584%2525D9%252583%2525D8%2525B1%2525D9%25258A%2525D9%252585%5F%2525D9%252585%2525D9%252583%2525D8%2525AA%2525D9%252588%2525D8%2525A8%5F%28%2525D8%2525A8%2525D8%2525AF%2525D9%252588%2525D9%252586%5F%2525D8%2525AA%2525D8%2525B4%2525D9%252583%2525D9%25258A%2525D9%252584%29%26fr%3D%26of%3D0%26pd%3D0%26irt%3D1%26vcl%3D1%26md%3D0%26ct%3D1%26tct%3D0%26abt%3D0%26cdn%3D0%26pi%3D1%26rb%3D4%26gen%3D100%26chr%3DUTF-8%26colc%3D1466014348790%26jsl%3D33%26uvs%3D57619a80aeecd5b1000%26skipb%3D1%26callback%3Daddthis.cbs.oln9%5F8390132783097950" name="login" onSubmit="return openLogin()">
+<input class="btn btn-success" type="submit" value="تسجيل دخول">
+</form>
+
+		
+		</div>
+		</div>
+	  <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-----./End Logout Modal---------->
+
+        <script>
+                                    $("#menu-toggle").click(function (e) {
+                                        e.preventDefault();
+                                        $("#wrapper").toggleClass("toggled");
+                                    });
+                                </script>
+									<script type="text/javascript">
+									<!--
+									  document.login.username.focus();
+									//-->
+									</script>
+</body>
+</html>

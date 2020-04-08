@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40pt"
+        android:id="@+id/editTextSearch"
+        android:hint="اكتب هنا ما تبحث عنه"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_rounded"
+        android:textColor="@color/black"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textColorHint="@color/darkblue"
+        android:textSize="13pt" />
+    <Button
+        android:text="نتيجة اخرى "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1next"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/layout1"
+        android:textSize="10pt" />
+    <ScrollView
+        android:id="@+id/ScrollViewID"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/linearLayout1"
+            android:textDirection="rtl"
+            android:layout_weight="1"
+            android:background="@color/whiteback">
+            <TextView
+                android:text="ما قبلها "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewBefor"
+                android:layout_weight="0.33"
+                android:layout_gravity="center"
+                android:textColor="@color/whiteback"
+                android:gravity="center"
+                android:background="@drawable/layout1"
+                android:layout_margin="20dp"
+                android:textSize="13pt" />
+            <TextView
+                android:text="الآَيَة"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewAya"
+                android:layout_weight="0.33"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="13pt" />
+            <TextView
+                android:text="ما بعدها"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewAfter"
+                android:layout_weight="0.33"
+                android:layout_gravity="center"
+                android:textColor="@color/whiteback"
+                android:gravity="center"
+                android:background="@drawable/layout1"
+                android:layout_margin="20dp"
+                android:textSize="13pt" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

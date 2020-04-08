@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">Qurany</string>
+  <string name="Banner_Ads">ca-app-pub-7735761310721955/3516478627</string>
+  <string name="action_deep_link">
+    com.xamarin.googleplayservices.appinvitesample.DEEP_LINK_ACTION
+  </string>
+</resources>
